@@ -150,7 +150,6 @@ a {
 .main-content {
     width: 40vw ;
     height: 70vh;
-    background-color: #7c7c7c;
 }
 
 .circle {
@@ -179,6 +178,10 @@ a {
     width: 60%;
     height: 200px;
     margin: 0 auto;
+    font-family: 'Roboto-Mono';
+    text-align: center;
+}
 
-    background: red;
+.info-container p {
+    margin-top: 2rem;
 }
