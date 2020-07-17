@@ -150,8 +150,35 @@ a {
 .main-content {
     width: 40vw ;
     height: 70vh;
+    background-color: #7c7c7c;
+}
+
+.circle {
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.profile-image{
+    width: 20rem;
+    height: 20rem;
+    
+}
+
+.image-container{
+    padding: 1rem;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #7c7c7c;
+
+    
+
+}
+
+.info-container {
+    width: 60%;
+    height: 200px;
+    margin: 0 auto;
+
+    background: red;
 }
