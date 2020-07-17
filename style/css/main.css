@@ -177,6 +177,7 @@ a {
 .info-container {
     width: 60%;
     height: 200px;
+    padding-top: 3rem;
     margin: 0 auto;
     font-family: 'Roboto-Mono';
     text-align: center;
