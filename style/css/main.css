@@ -44,8 +44,9 @@ a {
 .main-nav {
     display: inline-block;
     text-align: right;
-    width: calc(100% - 8rem);
+    width: calc(100% - 20rem);
     vertical-align: middle;
+    position: relative;
 }
 
 .main-nav__items {

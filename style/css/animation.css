@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+@font-face {
+    font-family: 'Roboto-mono';
+    src: url('../fonts/RobotoMono-VariableFont_wght.ttf') format('truetype');
+}
+
+#parent {
+  height: 43px;
+  white-space: nowrap;
+  overflow: hidden; 
+  font-family: 'Roboto-mono'; 
+  font-size: 32px;
+  letter-spacing: -1px;
+  color: rgba(0,0,0,1);
+  position: relative;
+}
+
+#border {
+  border-bottom: solid 4px rgba(0,0,0,.75);
+  padding: 0;
+  position: absolute;
+  right: -3px;
+  width: 24px;
+}
+
+/* Animation */
+#parent {
+  animation: animated-text 1s steps(20,end) 3s 1 normal both
+}
+
+#border {
+   animation: animated-cursor 500ms steps(30,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  0% {width: 24px; color: rgba(0,0,0,0);}
+  1% {width: 24px; color: rgb(0,0,0);}
+  100% {width: 293px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-bottom-color: rgba(0,0,0,.75);}
+  to{border-bottom-color: transparent;}
+}
