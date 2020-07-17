@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: 'Vazir-FD';
+    src: url('../fonts/Vazir.woff');
+}
+
+@font-face {
+    font-family: 'Dancing-Script';
+    src: url('../fonts/DancingScript-VariableFont_wght.ttf') format('truetype');
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Dancing-Script';
+    direction: ltr;
+}
+
+/* html {
+    margin: 20px;
+} */
+
+.main-header {
+
+    background: #fffefe;
+    width: 100%;
+    padding: .5rem 30rem;
+    direction: ltr;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+a {
+    color: #000000;
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 70px);
+    vertical-align: middle;
+}
+
+.main-nav__items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav__item {
+    display: inline-block;
+    
+    margin: 0 16px;
+}
+
+.main-nav__item a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.main-nav__item a:hover {
+    color: white;
+}
+
+
+.main-header > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header__logo {
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+
+.main-nav--account a,
+.main-nav--account a:hover {
+    background: #ffffff;
+    padding: 13px;
+    color: #006fca;
+    border-radius: 5px;
+}
+
+
+#main-footer{
+    width: 100%;
+    bottom: 0;
+    position: static;
+    background: #313131;
+    padding: 30px;
+    text-align: center;
+}
+
+.main-footer__links {
+    list-style: none;
+    margin: 0 auto;
+    
+}
+
+.main-footer__link {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.main-footer__link a{
+    margin: 0 8px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.main-footer__link a:hover{
+    color: aqua;
+
+}
