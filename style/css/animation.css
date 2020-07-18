@@ -26,7 +26,7 @@
 
 /* Animation */
 #parent {
-  animation: animated-text 1s steps(20,end) 3s 1 normal both
+  animation: animated-text 1s steps(20,end) 1s 1 normal both
 }
 
 #border {
@@ -38,7 +38,7 @@
 @keyframes animated-text{
   0% {width: 24px; color: rgba(0,0,0,0);}
   1% {width: 24px; color: rgb(0,0,0);}
-  100% {width: 293px;}
+  100% {width:150px;}
 }
 
 /* cursor animations */
