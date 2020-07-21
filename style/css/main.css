@@ -47,6 +47,8 @@ a {
     width: calc(100% - 20rem);
     vertical-align: middle;
     position: relative;
+    position: fixed;
+    right: 35rem;
 }
 
 .main-nav__items {
