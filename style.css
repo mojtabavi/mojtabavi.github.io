@@ -202,7 +202,7 @@ body {
   padding: 0 20px;
   margin-bottom: 30px;
 }
-.card-social svg {
+.card-social svg{
   fill: #a5b5ce;
   width: 16px;
   display: block;
@@ -226,7 +226,7 @@ body {
   border-radius: 50%;
   margin-right: 10px;
 }
-.card-social a:hover svg {
+.card-social a:hover svg{
   fill: #637faa;
 }
 .card-social a:last-child {
@@ -403,4 +403,5 @@ body {
   font-family: "Jost", sans-serif;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  
 }
